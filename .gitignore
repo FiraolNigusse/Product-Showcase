@@ -1,0 +1,23 @@
+# Python related
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.env
+env/
+venv/
+.idea/
+*.pyc
+
+# Node related
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
