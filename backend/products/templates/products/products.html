@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Showcase</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  <link rel="icon" type="image/png" href="{% static 'images/favicon.png' %}">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Product Grid</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 🔔 Disclosure for Affiliate Links -->
+    <div class="disclosure" style="background-color: #fff3cd; padding: 10px; border: 1px solid #ffeeba; color: #856404; margin: 20px; border-radius: 5px;">
+      <p><em>Disclosure: Some links on this site may be affiliate links, which means I may earn a commission if you make a purchase through them—at no extra cost to you.</em></p>
+    </div>
+
+    <section id="product-grid" class="product-grid">
+      <!-- 🛍️ Products will be loaded dynamically by JS -->
+    </section>
+  </main>
+
+  <footer>
+    <p style="text-align: center; padding: 20px; font-size: 0.9rem; color: #777;">
+      &copy; {{ year }} Product Showcase | Built with ❤️  
+    </p>
+  </footer>
+
+  <script src="{% static 'js/products.js' %}"></script>
+</body>
+</html>
