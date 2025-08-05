@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "image": "/static/assets/headphones.webp",
+    "description": "High-quality sound with 30-hour battery life.",
+    "link": "https://example.com/affiliate/headphones"
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Speaker",
+    "image": "/static/assets/speaker.webp",
+    "description": "Waterproof portable speaker with deep bass.",
+    "link": "https://example.com/affiliate/speaker"
+  },
+  {
+    "id": 3,
+    "name": "Smartwatch Pro",
+    "image": "/static/assets/smartwatch.webp",
+    "description": "Heart rate monitoring and GPS tracking.",
+    "link": "https://example.com/affiliate/smartwatch"
+  },
+  {
+    "id": 4,
+    "name": "4K Action Camera",
+    "image": "/static/assets/action-cam.webp",
+    "description": "Stabilized 4K video for adventures.",
+    "link": "https://example.com/affiliate/action-cam"
+  },
+  {
+    "id": 5,
+    "name": "Ergonomic Keyboard",
+    "image": "/static/assets/keyboard.avif",
+    "description": "Split-design for comfortable typing.",
+    "link": "https://example.com/affiliate/keyboard"
+  },
+  {
+    "id": 6,
+    "name": "Noise-Canceling Earbuds",
+    "image": "/static/assets/earbuds.webp",
+    "description": "True wireless with active noise cancellation.",
+    "link": "https://example.com/affiliate/earbuds"
+  },
+  {
+    "id": 7,
+    "name": "Ultra HD Monitor",
+    "image": "/static/assets/monitor.webp",
+    "description": "32-inch 4K display with HDR.",
+    "link": "https://example.com/affiliate/monitor"
+  },
+  {
+    "id": 8,
+    "name": "Gaming Mouse",
+    "image": "/static/assets/gaming-mouse.webp",
+    "description": "Programmable buttons with RGB lighting.",
+    "link": "https://example.com/affiliate/gaming-mouse"
+  },
+  {
+    "id": 9,
+    "name": "Wireless Charger",
+    "image": "/static/assets/charger.avif",
+    "description": "Fast-charging pad for multiple devices.",
+    "link": "https://example.com/affiliate/charger"
+  },
+  {
+    "id": 10,
+    "name": "Laptop Backpack",
+    "image": "/static/assets/backpack.avif",
+    "description": "Anti-theft design with USB charging port.",
+    "link": "https://example.com/affiliate/backpack"
+  }
+]
